@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Sign In </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7637958f19.js" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    *{
+      margin: 0;
+      box-sizing:border-box
+    }
+    @media (max-width: 768px) { /* 1px - 768px - Mobile Landscape & Tablet Portrait */
+      .container-1,.container-2{
+        width: 40%;
+      }
+    }
+    @media (max-width: 576px) { /* 1px - 576px - Mobile Portrait */
+      .container-1,.container-2{
+        width: 40%;
+      }
+    }
+    .container-1{
+      width: 40%;
+      position: absolute;float: left;
+      left: 20px;
+      top: 100px;
+      border-radius: 20px;padding: 10px;border: 5px solid chartreuse;
+      width: 48%;height: 100%x;
+      background-color: blanchedalmond;
+    }
+    .container-2{
+      width: 40%;float: right;
+      position: absolute;
+      right: 10px;
+      top: 100px;
+      border-radius: 20px;padding: 10px;border: 5px solid red;
+      width: 48%;height: 100%x;
+      background-color: rgb(235, 237, 139);
+    }    
+  </style>
+  <body>
+    <div class="container-fluid">
+      <img src="bg1.jpg"  alt="image is here" width="100%" vh="100%">
+      <div class="container-1 text-center">
+        <h1 class="text-center text-success">Qtree</h1>
+        <h2 class="text-center">Welcome back!</h2>
+        <br>
+        <br>
+        <text class="fs-2 fw-bold ">Good to see you again!</text>
+        <br>
+        <text class="fs-5 ">Let's reach those goals!</text>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="email" alt="" class="fw-bold me-5">Email</label>
+        <br>
+        <input type="email" class="w-50 rounded-3" aria-label="email" placeholder="For example :-xyaz@gmail.com">
+        <br>
+        <label for="Password" alt="" class="fw-bold me-5">Password</label>
+        <br>
+        <input type="password" class="w-50 rounded-3" aria-label="email" placeholder="Password must be more than 8 characters">
+        <br>
+        <br>
+        <input type="checkbox" class="p-4" alt="remember me">
+        <label for="remember me" alt="password" class="fw-bold">Remember me!</label>
+        <a href class ="float-end fw-bold ">Forgot Password!</a>
+        <br>
+        <br>
+        <br>
+        <button type="button" alt="login here" class="w-50 text-center text-light btn btn-success rounded-5 fw-bold">Login</button>
+      </div>
+      <!--------Second Column---------------------------------------> 
+      <div class="container-2 text-center  ">
+        <h1 class="text-center text-success">Qtree</h1>
+        <h2 class="text-center">Welcome!!</h2>
+        <br>
+        <br>
+        <text class="fs-2 fw-bold ">Sign Up</text>
+        <br>
+        <text class="fs-5 ">Let's reach those goals as a developer!</text>
+        <br>
+        <br>
+        <br>
+        <br>
+        <label for="email" alt="" class="fw-bold me-5">Your Email</label>
+        <br>
+        <input type="email" class="w-50 rounded-3" aria-label="email" placeholder="For example :-xyaz@gmail.com">
+        <br>
+        <label for="Password" alt="" class="fw-bold me-5">Password</label>
+        <br>
+        <input type="password" class="w-50 rounded-3" aria-label="email" placeholder="Password must be more than 8 characters">
+        <br>
+        <br>
+        <input type="checkbox" class="p-4" alt="remember me">
+        <label for="remember me" alt="password" class="fw-bold">I agree to all <a>Term,Privacy,Policy</a> and<a> fees.</a></label>
+        <br>
+        <br>
+        <button type="button" alt="Account" class="w-50 text-center text-light btn btn-success rounded-5 fw-bold">Create Account or Register</button>
+        <br>
+        <br>
+        <button type="button" class="btn btn-dark w-20 rounded-2 float-start ms-5 border-3"><i class="fa-brands fa-google text-danger"></i>&nbsp;Sign Up with google</button>
+        <button type="button" class="btn btn-dark w-20 rounded-2 float-end me-5 border-3"><i class="fa-brands fa-linkedin fa-bounce"></i>&nbsp;Sign Up with LinkedIn</button>
+      </div>
+    </div>
+  </body>
+</html>
+
